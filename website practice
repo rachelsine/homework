@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rachel Sine</title>
+</head>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+        <style>
+            body {
+                font-family: 'Raleway';font-size: 22px;
+            }
+
+
+            * {box-sizing:border-box}
+
+        /* Slideshow container */
+        .slideshow-container {
+        max-width: 1000px;
+        position: right;
+        margin: none;
+        }
+
+        /* Hide the images by default */
+        .mySlides {
+        display: none;
+        }
+
+        /* Next & previous buttons */
+        .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Caption text */
+        .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+
+
+        #navigation_bar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 350px;
+            padding-top: 270px;
+        }
+
+
+
+
+</style>
+<body>
+    
+    <a href="home.html">
+        <img src="https://previews.dropbox.com/p/thumb/AAoOt-cy1FFR0DUdcZs7g64P4nAwRIpJ-MLv5NhVP4mxJMCHTEDwgZj5a8iRPVCX8eNN85UvjlYEcesbrx83OqoaYSZxNnhzjq1xHZb75waqHnbh2xkl9UaZMWqbtYRWnZsA-HqLPp8OtVHWspZ2HX9nHFQYLtaY7aw7APWKAdQV4stQBg8kmm-bkIXK1YQFAWgOeybYYx9RVgBEFmiGkJMeX-O4H-UIihkbB7r5zIU4DA0Cy1Aiy2H8QaX5KzTJiwXvOJgR4plO3b9XzjiJCwHFWEfpvDn0-Uh-hIz3eoqXp0I_bdWhadU5TqGsylTbJFOeWDlnizi8FFh42ylTtq9lCehK99dP5Dv-lwrz8RaWHyRn93m3UaxlYmvaI28Tg3GsyanBFQaz0HncU-OC-4tmKGQJuVpOUhmhLV50_q5YJA/p.png?fv_content=true&size_mode=5" alt="Rachel Sine" 
+        style="width:300px;height:120px;border:0px;padding-top:20px;padding-left:20px;">
+      </a>
+
+        <nav>
+            <ul id="navigation_bar"></ul>
+            <ul style="list-style-type:none;">
+                <li><a href="home.html" style="text-decoration: none;">home</a> </li>
+                <li></li><a href="bio.html" style="text-decoration: none;">bio</a> </li>
+                <li><a href="work.html" style="text-decoration: none;">work</a></li>
+                <li><a href="contact-me.html" style="text-decoration: none;">contact</a></li>
+            </ul>
+        </nav>
+
+<!-- Slideshow container -->
+    <div class="slideshow-container" 
+    div style="position:absolute; TOP:170px; LEFT:350px; WIDTH:900px; HEIGHT:900px">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="https://previews.dropbox.com/p/thumb/AApiwAcEQAJ_XOBen4v-Z2imS85acM1L5FvdPIb0VIul2JLmXKmGp_zhTvuylj-CMbUCnIH96kEAIChScPt2H4bfF8ADuc6j4wMslIKkI2Mo91YmpTw1se9w7bIHbhlR6rNhJSSqobZY4LrXjgnorKl9I8y0gFvTgeRParurMt9nAJMN7itWIQOBixY5RmTaGUR9dtCw_QZItWquXTapKPHktWHt_angkKCF2ka-xbwRxO2EZOdonMk7KIDIi4EYh5nkQFyAD3ZDWL4SWwCpm7qxdBpai-SW8nRD7BlfCrv4fF2Hf_YelFXjxCBCvFvgY1XZsh9PEMTkoSk6F-k-NQfv/p.jpeg?fv_content=true&size_mode=5" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="https://previews.dropbox.com/p/thumb/AAoJygGJWTt7Bvyv4-ZtX_Zy2X3cIiQtMRDH6PVne-BNNhJM0f--eA7ueaIt6-49PX3bdtlTcLaYBxmiTMTwx1PY5oLeqP2RDI22MTsu8jAW4Da2K5SBW2WaHZLCqGTjN5eYhTVgAZWColidn8gffEPCZC_JorAiNtoOxbjcl-YbxTaX0pKWNE3dIe0cF5RmucsLmOVqceQmq8Qky4s0xxK9QrOP9G8-dQqaNaCwIZRtgO3hI9CjMsAHFcbm6EOdInzw1aA2IgnjJOVGX3gqAK5rFGJOcPwdo0pHl_UfPJbktO99Ba5q03Q4DVeMhy_3Mss9wvnJV9ymQKh4Jz3fCHZzl1-u77eLNh4mpEu9g0ffkzTh5jzubo7qGn0PenXaAw9KY0pLwfPXqneEtq_HjLes/p.jpeg?fv_content=true&size_mode=5" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="https://previews.dropbox.com/p/thumb/AAqY-jPN2rT7TgS-WsYZs2pbqkK2V4n8YQq8kvd3A9NihrO-pqrO_S-NbMZsxV30mLssiIw-m4wTgr-KGszlsUy-rQLd7JPQejkf0bgsE_DppaxMASVzJORZcBNYlr7zhcjEyM07ylNSm0G2_1-HE__Rbr6mBkQjlHqFbG7-XFOiM3mTSbnzmfrnNaXEpHCzXXYWGK6Qwmirk_6zUNDR1MOtIbnNoibsadykVsH4Velt0A2c-298mN9QAfRYuuDPjqqSQ_ux1kuQs5Wo7kgZ4tfC4biW1iChl0byVbFxOXccZcflDE4RvQ-jlkUkVQZ3JoEBQnCnALlr29bUYmuEISy0/p.jpeg?fv_content=true&size_mode=5" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+}
+
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+
+
+
+    </script>
+
+
+</body>
+</html>
