@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<style>
+
+    body {
+        background-color: rgb(68, 67, 67);
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .mid {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        padding-top: 50px;
+        background-color: rgb(155, 154, 154);
+        border-radius: 10px;
+        font-size: 25px;
+    }
+
+    #large {
+        display: inline-block;
+        width: 470px;
+        margin: 5px; 
+        font-size: 25px;       
+    }
+
+    .long {
+        width: 700px;   
+        height: 50px; 
+        border-radius: 10px;
+        margin: 5px;    
+        padding-top:20px;
+        font-size: 25px;
+    } 
+
+
+    .side {
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        background-color: rgb(155, 154, 154);
+        border-radius: 10px;
+        margin: 5px;
+        padding-top: 25px;
+        font-size: 40px;
+    }
+    
+    div { 
+        text-align: center;
+        background-color: rgb(155, 154, 154);
+
+    }
+
+    #big {
+        width: 650px;
+        height: 50px;
+        text-align: center;
+        background-color: rgb(155, 154, 154);
+        border-radius: 10px;
+        padding-top: 25px;
+        font-size: 40px;
+    }
+
+    .white {
+        background-color: white;
+        color: black;
+        border-style: solid;
+        border-width: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 1px;
+        width: 700px;
+        height: 80px;
+        padding-top: 30px;
+        font-size: 40px;
+    }
+
+    #main {
+        display: inline-block;
+        width: 480px;
+        height: 150px;
+        padding-top:40px;
+    }
+
+    #nav {
+        display: inline-block;
+        width: 200px;
+        height: 150px;
+        padding-top:40px;
+    }
+
+
+</style>
+<body>
+    
+<div class="long">header</div>
+<div class="mid">nav</div>
+<div id="large" class="mid">article</div>
+<div class="mid">aside</div>
+<div class="long">footer</div>
+
+<br>
+<br>
+<br>
+
+<div class="side">1</div>
+<div class="side">2</div>
+<div class="side">3</div>
+<div id="big">4</div>
+
+
+<br>
+<br>
+<br>
+
+<div class="white">Header</div>
+<div id="nav" class="white">Nav</div>
+<div id="main" class="white">Main</div>
+<div class="white">Footer</div>
+
+
+</body>
+</html>
