@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    
+    <style>
+        body {
+            font-family: 'Trebuchet MS';
+            font-size: 14px;
+            
+        }
+        
+        th {
+            background-color:rgb(31, 182, 31);
+            font-weight: 'bold';
+            color:white;
+            text-align: left;
+        
+        }
+
+        tr {height: 35px;
+
+        }
+
+        .grey {
+            background-color: rgb(228, 229, 231)
+        }
+
+        .container {
+            background-color: orange;
+            width: 560px;
+            height: 400px;
+        }
+
+        ol {
+            padding: 26px;
+            background-color: pink;
+            width: 550px;
+            }
+        li {
+            background-color: rgb(251, 229, 229);
+            padding: 2px;
+            
+        }
+
+        ul {
+        padding: 26px;
+        background-color: rgb(52, 152, 251);
+        width: 550px;
+        }
+
+        .b {
+            background-color: rgb(204,229,253);
+        }
+
+        .header {
+            background-color:rgb(202, 200, 200);
+            border-style:solid;
+            border-color: rgb(124, 123, 123);
+            margin: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            width: 540px;
+
+        }
+        
+        
+        .nav {
+            background-color:rgb(202, 200, 200);
+            border-style:solid;
+            border-color: rgb(124, 123, 123);
+            margin: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            width: 520px;
+        }
+
+        .wrapper {
+            background-color:rgb(202, 200, 200);
+            border-style:solid;
+            border-color: rgb(124, 123, 123);
+            margin: 5px;
+            text-align: center;
+            width: 540px;
+        
+        }
+
+        .content, .sidebar {
+            background-color:rgb(202, 200, 200);
+            border-style:solid;
+            border-color: rgb(124, 123, 123);
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            display: inline-block;
+            width: 200px;
+            align-content: center;
+
+        }
+
+        #tall {
+            height: 141px;
+            float:right;
+
+        }
+
+        .footer {
+            background-color:rgb(202, 200, 200);
+            border-style:solid;
+            border-color: rgb(124, 123, 123);
+            margin: 5px;
+            text-align: center;
+            width: 540px;
+            height: 30px;
+            padding-top: 10px;
+        }
+
+        #top, #bottom {
+            background-color:rgb(202, 200, 200);
+            border-style:solid;
+            border-color: rgb(124, 123, 123);
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            display: inline-block;
+            width: 150px;
+        }
+  
+    </style>
+
+
+</head>
+<body>
+    
+
+    <table width="650px"; border-collapse="border-collapse">
+  
+        <tr> 
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+          
+        </tr>
+
+        <tr>
+            <td class="grey">Alfreds Futterkiste</td>
+            <td class="grey">Maria Anders</td>
+            <td class="grey">Germany</td>
+        </tr>
+        <tr>
+            <td>Berglunds snabbköp</td>
+            <td>Christina Berlund</td>
+            <td>Sweden</td>  
+        </tr>
+        <tr>
+            <td class="grey">Centro comerical Moctezuma</td> 
+            <td class="grey">Francisco Chang</td>
+            <td class="grey">Mexico</td>
+        </tr>
+            
+        <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+
+        <tr>
+            <td class="grey">Island Trading</td>
+            <td class="grey">Helen Bennett</td>
+            <td class="grey">UK</td>
+        </tr>   
+
+        <tr>
+            <td>Königlich Essen</td>
+            <td>Phillip Cramer</td>
+            <td>Germany</td>
+        </tr>
+
+        <tr>
+            <td class="grey">Laughing Bacchus Winecellars</td>
+            <td class="grey">Yoshi Tannamuri</td>
+            <td class="grey">Canada</td>
+        </tr>
+
+        <tr>
+            <td>Magazzani Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+        </tr>
+        
+    </table>
+
+    <ol>
+        <li>Coffee </li>
+        <li>Tea </li>
+        <li>Coca Cola</li>
+    </ol>
+
+    <ul class=blue>
+        <li class=b>Coffee</li c>
+        <li class=b>Tea</li>
+        <li class=b>Coca Cola</li>
+    </ul>
+
+    <br>
+
+    <div class="container"> div class container
+    
+        <div class="header"> div class header
+
+            <div class="nav">div class nav</div>
+
+         </div class="header">
+
+        <div class="wrapper"> div class wrapper <br>
+        
+            <div class="content"> content
+                <div id="top" class="subcontent">subcontent1</div> 
+                <div id="bottom" class="suncontent">subcontent2</div> 
+            </div class="content">
+        
+            <div id="tall" class="sidebar">sidebar</div>
+    
+        </div class="wrapper">
+
+        <div class="footer">footer</div>
+
+    </div>
+    
+
+</body>
+</html>
+
